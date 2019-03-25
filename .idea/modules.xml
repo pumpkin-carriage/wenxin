@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/wenxin.iml" filepath="$PROJECT_DIR$/.idea/wenxin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wenxin_common/wenxin_common.iml" filepath="$PROJECT_DIR$/wenxin_common/wenxin_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wenxin_front/wenxin_front.iml" filepath="$PROJECT_DIR$/wenxin_front/wenxin_front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager.iml" filepath="$PROJECT_DIR$/wenxin_manager/wenxin_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_mapper/wenxin_manager_mapper.iml" filepath="$PROJECT_DIR$/wenxin_manager/wenxin_manager_mapper/wenxin_manager_mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_pojo/wenxin_manager_pojo.iml" filepath="$PROJECT_DIR$/wenxin_manager/wenxin_manager_pojo/wenxin_manager_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_service/wenxin_manager_service.iml" filepath="$PROJECT_DIR$/wenxin_manager/wenxin_manager_service/wenxin_manager_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/wenxin_manager_web.iml" filepath="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/wenxin_manager_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wenxin_parent/wenxin_parent.iml" filepath="$PROJECT_DIR$/wenxin_parent/wenxin_parent.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="wenxin_front:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99f60fd2-7b59-41f7-9690-970ca07a0d59" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/wenxin_manager/wenxin_manager_service/target/" />
+    <ignored path="$PROJECT_DIR$/wenxin_manager/wenxin_manager_mapper/target/" />
+    <ignored path="$PROJECT_DIR$/wenxin_manager/target/" />
+    <ignored path="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/target/" />
+    <ignored path="$PROJECT_DIR$/wenxin_manager/wenxin_manager_pojo/target/" />
+    <ignored path="$PROJECT_DIR$/wenxin_parent/target/" />
+    <ignored path="$PROJECT_DIR$/wenxin_common/target/" />
+    <ignored path="$PROJECT_DIR$/wenxin_parent/wenxin_front/target/" />
+    <ignored path="$PROJECT_DIR$/wenxin_front/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="wenxin" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/controller/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="98" column="34" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="254" column="57" selection-start-line="254" selection-start-column="11" selection-end-line="254" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_service/src/main/java/com/wenxin/service/impl/ProductServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="212" column="20" selection-start-line="212" selection-start-column="20" selection-end-line="212" selection-end-column="20" />
+              <folding>
+                <element signature="method#producPage#0;class#ProductServiceImpl#0" />
+                <element signature="method#addProduct#0;class#ProductServiceImpl#0" />
+                <element signature="method#updateProduct#0;class#ProductServiceImpl#0" />
+                <element signature="method#getEsClient#0;class#ProductServiceImpl#0" />
+                <element signature="method#updateProductOffSale#0;class#ProductServiceImpl#0" />
+                <element signature="method#getUser#0;class#ProductServiceImpl#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/receiveOrder.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
+              <folding>
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/service/WOrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/service/impl/WOrderServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-940">
+              <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/cart.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="94" column="42" selection-start-line="93" selection-start-column="12" selection-end-line="94" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/myproduct.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>treeDemo</find>
+      <find>citySel</find>
+      <find>menuContent</find>
+      <find>brandType</find>
+      <find>updateByPrimaryKeySelective</find>
+      <find>relative</find>
+      <find>$(&quot;#label_image&quot;)</find>
+      <find>}}</find>
+      <find>\\</find>
+      <find>货到付款</find>
+      <find>未确定</find>
+      <find>jedis.close();</find>
+      <find>jedis</find>
+      <find>&lt;img src=&quot;../../static/img/logo.png&quot; width=&quot;500&quot; height=&quot;auto&quot;/&gt;</find>
+      <find>400</find>
+      <find>912</find>
+      <find>930</find>
+      <find>57.png</find>
+      <find>lock</find>
+      <find>personclData</find>
+      <find>static/</find>
+      <find>vue1</find>
+      <find>&lt;a href=&quot;#&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-th&quot;&gt;&lt;/span&gt; 我的订单&lt;/a&gt;&lt;/li&gt;</find>
+      <find>&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-remove-circle&quot;&gt;&lt;/span&gt;退出登录&lt;/a&gt;&lt;/li&gt;</find>
+      <find>&lt;li&gt;&lt;a href=&quot;user/logout&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-remove-circle&quot;&gt;&lt;/span&gt;退出登录&lt;/a&gt;&lt;/li&gt;</find>
+      <find>orderByClause</find>
+      <find>logo_shard</find>
+      <find>上架</find>
+      <find>send</find>
+      <find>pmhwveaaf.bkt.clouddn.com</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>java.lang.String</replace>
+      <replace>${pageContext.request.contextPath}/</replace>
+      <replace>../../../</replace>
+      <replace>product</replace>
+      <replace>}}</replace>
+      <replace>brand</replace>
+      <replace>zTree</replace>
+      <replace>brandType</replace>
+      <replace>ptype</replace>
+      <replace>relative</replace>
+      <replace>}</replace>
+      <replace>//</replace>
+      <replace>货到付款()</replace>
+      <replace>货到付款(待发货)</replace>
+      <replace>异常订单</replace>
+      <replace />
+      <replace>&lt;img src=&quot;../../static/img/logo.png&quot; width=&quot;400&quot; height=&quot;auto&quot;/&gt;</replace>
+      <replace>400</replace>
+      <replace>402</replace>
+      <replace>920</replace>
+      <replace>personalData</replace>
+      <replace>../../static/</replace>
+      <replace>vue</replace>
+      <replace>&lt;a href=&quot;/order/myorder&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-th&quot;&gt;&lt;/span&gt; 我的订单&lt;/a&gt;&lt;/li&gt;</replace>
+      <replace>&lt;li&gt;&lt;a href=&quot;user/logout&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-remove-circle&quot;&gt;&lt;/span&gt;退出登录&lt;/a&gt;&lt;/li&gt;</replace>
+      <replace>&lt;li&gt;&lt;a href=&quot;/user/logout&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-remove-circle&quot;&gt;&lt;/span&gt;退出登录&lt;/a&gt;&lt;/li&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/footer.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/p.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/bulletin.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/resources/resource/email.properties" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/service/impl/UserserviceImpl.java" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/service/Userservice.java" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/regist.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/util/MailUtil.java" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/resources/resource/db.properties" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/webapp/WEB-INF/views/admin/user.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/webapp/WEB-INF/views/admin/brand.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/resources/resource/jedis.properties" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/resources/spring/applicationContext-jedis.xml" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/resources/resource/es.properties" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/webapp/WEB-INF/views/admin/login.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/webapp/WEB-INF/views/admin/bulletin.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_pojo/src/main/java/com/wenxin/pojo/WProduct.java" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/webapp/WEB-INF/views/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/resources/resource/db.properties" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/resources/resource/es.properties" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/resources/resource/jedis.properties" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/resources/spring/applicationContext-jedis.xml" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/order.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/cart.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_service/src/main/java/com/wenxin/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/java/com/wenxin/controller/admin/OrderController.java" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_service/src/main/java/com/wenxin/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_mapper/src/main/java/com/wenxin/mapper/WOrderMapper.xml" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_mapper/src/main/java/com/wenxin/mapper/WOrderMapper.java" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/pList.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/webapp/static/conf/conf.json" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/webapp/static/conf/conf.json" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/webapp/WEB-INF/views/admin/order.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/myorder.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/service/WOrderService.java" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/complete.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/wenxin_front/pom.xml" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/service/WProductService.java" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/service/impl/WProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_service/src/main/java/com/wenxin/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_service/src/main/java/com/wenxin/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/java/com/wenxin/controller/admin/ProductController.java" />
+        <option value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/webapp/WEB-INF/views/admin/product.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/myproduct.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/receiveOrder.jsp" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/service/impl/WOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/controller/ProductController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wenxin_manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wenxin_manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wenxin_manager_mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wenxin_manager_mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wenxin_manager_pojo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wenxin_manager_pojo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wenxin_manager_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wenxin_manager_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wenxin_manager_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wenxin_manager_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="9" />
+    <option name="y" value="13" />
+    <option name="width" value="1346" />
+    <option name="height" value="762" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wenxin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wenxin" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="wenxin_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552227089002" />
+    <property name="last_opened_file_path" value="D:/generatorSqlmap" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wenxin\wenxin_front\src\main\resources\resource" />
+      <recent name="E:\wenxin\wenxin_manager\wenxin_manager_pojo\src\main\java\com\wenxin\pojo" />
+      <recent name="E:\wenxin\wenxin_manager\wenxin_manager_mapper\src\main\java\com\wenxin\mapper" />
+      <recent name="E:\wenxin\wenxin_front\src\main\webapp\static\img" />
+      <recent name="E:\wenxin\wenxin_front\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wenxin.service.impl" />
+      <recent name="com.wenxin.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.wenxin_front [tomcat7:run]">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="wenxin_common" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wenxin_front [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/wenxin_front" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="wenxin_manager_web [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/wenxin_manager/wenxin_manager_web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="receiveOrder.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/views/receiveOrder.jsp" />
+      <deployment>
+        <artifact name="wenxin_front:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/wenxin_front_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="receiveOrder_jsp_wenxin" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63052" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="wenxin_front:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.test" />
+      <item itemvalue="Maven.wenxin_manager_web [tomcat7:run]" />
+      <item itemvalue="Maven.wenxin_front [tomcat7:run]" />
+      <item itemvalue="Tomcat Server.receiveOrder.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.receiveOrder.jsp" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99f60fd2-7b59-41f7-9690-970ca07a0d59" name="Default Changelist" comment="" />
+      <created>1549024827760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549024827760</updated>
+      <workItem from="1549024830058" duration="6618000" />
+      <workItem from="1549067391221" duration="11673000" />
+      <workItem from="1549083980600" duration="1417000" />
+      <workItem from="1549086286719" duration="33160000" />
+      <workItem from="1549155061775" duration="20392000" />
+      <workItem from="1549176544653" duration="12724000" />
+      <workItem from="1549198731503" duration="13359000" />
+      <workItem from="1549241799054" duration="10161000" />
+      <workItem from="1549259744684" duration="3963000" />
+      <workItem from="1549288980668" duration="10583000" />
+      <workItem from="1549324696309" duration="3262000" />
+      <workItem from="1549341852558" duration="53000" />
+      <workItem from="1549342489168" duration="299000" />
+      <workItem from="1549376458816" duration="12996000" />
+      <workItem from="1549414669725" duration="1617000" />
+      <workItem from="1549417737501" duration="48703000" />
+      <workItem from="1549508367413" duration="3239000" />
+      <workItem from="1549517760870" duration="1279000" />
+      <workItem from="1549526241370" duration="16663000" />
+      <workItem from="1549586777329" duration="9070000" />
+      <workItem from="1549599920047" duration="14608000" />
+      <workItem from="1549615942213" duration="9467000" />
+      <workItem from="1549675944345" duration="5376000" />
+      <workItem from="1549718054620" duration="12389000" />
+      <workItem from="1549758757599" duration="41402000" />
+      <workItem from="1549872154605" duration="28851000" />
+      <workItem from="1549940574617" duration="43210000" />
+      <workItem from="1550018066370" duration="35119000" />
+      <workItem from="1550138669970" duration="15654000" />
+      <workItem from="1550233938575" duration="976000" />
+      <workItem from="1550278869918" duration="58000" />
+      <workItem from="1550291605073" duration="4458000" />
+      <workItem from="1550299985548" duration="3683000" />
+      <workItem from="1550331370743" duration="3693000" />
+      <workItem from="1550365338629" duration="18000" />
+      <workItem from="1550366207646" duration="15395000" />
+      <workItem from="1550397225727" duration="1362000" />
+      <workItem from="1550415881753" duration="8500000" />
+      <workItem from="1550451776284" duration="9989000" />
+      <workItem from="1550477351588" duration="18293000" />
+      <workItem from="1550508180254" duration="3921000" />
+      <workItem from="1550537637829" duration="65000" />
+      <workItem from="1550636805439" duration="2234000" />
+      <workItem from="1550647040459" duration="551000" />
+      <workItem from="1551011397268" duration="9683000" />
+      <workItem from="1551347584674" duration="21141000" />
+      <workItem from="1551410344090" duration="4310000" />
+      <workItem from="1551421208370" duration="12216000" />
+      <workItem from="1551504407975" duration="4131000" />
+      <workItem from="1551514503455" duration="984000" />
+      <workItem from="1551517146528" duration="882000" />
+      <workItem from="1551539557929" duration="3544000" />
+      <workItem from="1551613143112" duration="1305000" />
+      <workItem from="1551715584064" duration="735000" />
+      <workItem from="1551746911079" duration="154000" />
+      <workItem from="1551954565574" duration="12619000" />
+      <workItem from="1552025307510" duration="595000" />
+      <workItem from="1552052794037" duration="14431000" />
+      <workItem from="1552116683639" duration="202000" />
+      <workItem from="1552137977087" duration="9748000" />
+      <workItem from="1552177423447" duration="6716000" />
+      <workItem from="1552184744314" duration="28136000" />
+      <workItem from="1552219066925" duration="7132000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="639167000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.69650656" visible="true" weight="0.2730711" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.30349344" side_tool="true" weight="0.24508321" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32850242" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.52979064" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.31561998" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.494705" weight="0.27858293" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5046656" side_tool="true" weight="0.3670473" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="13" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.505295" side_tool="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info anchor="bottom" id="Problems" order="16" />
+      <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.19288956" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.19288956" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/webapp/WEB-INF/views/admin/product.jsp</url>
+          <line>485</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/myorder.jsp</url>
+          <line>200</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="MavenRunConfiguration">
+        <watch expression="pagnation.getBegin()" language="JAVA" />
+        <watch expression="multiGetItemResponses" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>pagnation.getBegin()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&lt;include refid=&quot;Base_Column_List&quot; /&gt;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/webapp/WEB-INF/views/admin/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="147" selection-start-line="22" selection-start-column="147" selection-end-line="22" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/webapp/WEB-INF/views/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="79" column="92" selection-start-line="79" selection-start-column="92" selection-end-line="79" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/resources/resource/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/resources/resource/email.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/resources/resource/jedis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/resources/resource/jedis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/resources/spring/applicationContext-jedis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="83" selection-start-line="35" selection-start-column="6" selection-end-line="36" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/resources/spring/applicationContext-jedis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="83" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_mapper/src/main/java/com/wenxin/mapper/WOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_mapper/src/main/java/com/wenxin/mapper/WOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3043">
+          <caret line="179" column="68" selection-start-line="179" selection-start-column="58" selection-end-line="179" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_service/src/main/java/com/wenxin/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_service/src/main/java/com/wenxin/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/resources/resource/qiniu.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/static/conf/conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/target/wenxin_manager_web/static/conf/conf.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/pList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="110" column="80" selection-start-line="110" selection-start-column="80" selection-end-line="110" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/webapp/static/conf/qiniu.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/order.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1141">
+          <caret line="89" column="138" selection-start-line="89" selection-start-column="138" selection-end-line="89" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/webapp/WEB-INF/views/admin/order.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="166" column="47" selection-start-line="166" selection-start-column="47" selection-end-line="166" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/java/com/wenxin/controller/admin/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/resources/resource/es.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_mapper/src/main/java/com/wenxin/mapper/WCommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_mapper/src/main/java/com/wenxin/mapper/WCommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_pojo/src/main/java/com/wenxin/pojo/WComment.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_pojo/src/main/java/com/wenxin/pojo/WCommentExample.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../java/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/complete.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="74" column="158" selection-start-line="74" selection-start-column="158" selection-end-line="74" selection-end-column="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/fail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/myorder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="162" column="6" selection-start-line="134" selection-end-line="162" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#5563#5570#0#HTML" expanded="true" />
+            <element signature="e#5935#5941#0#HTML" expanded="true" />
+            <element signature="e#5941#5947#0#HTML" expanded="true" />
+            <element signature="e#6190#6196#0#HTML" expanded="true" />
+            <element signature="e#6196#6202#0#HTML" expanded="true" />
+            <element signature="e#6252#6258#0#HTML" expanded="true" />
+            <element signature="e#6258#6264#0#HTML" expanded="true" />
+            <element signature="e#6510#6516#0#HTML" expanded="true" />
+            <element signature="e#6516#6522#0#HTML" expanded="true" />
+            <element signature="e#6572#6578#0#HTML" expanded="true" />
+            <element signature="e#6578#6584#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="76" column="21" selection-start-line="57" selection-start-column="7" selection-end-line="76" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/resources/resource/qiniu.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/service/WProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3587">
+          <caret line="211" column="42" selection-start-line="211" selection-start-column="42" selection-end-line="211" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/java/com/wenxin/controller/admin/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="68" column="5" selection-start-line="31" selection-start-column="3" selection-end-line="68" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/service/impl/WProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="108" column="41" selection-start-line="108" selection-start-column="41" selection-end-line="108" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_service/src/main/java/com/wenxin/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_common/src/main/java/com/wenxin/utils/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/webapp/WEB-INF/views/admin/product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="547" column="57" selection-start-line="547" selection-start-column="57" selection-end-line="547" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_web/src/main/java/com/wenxin/controller/admin/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="65" column="58" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/bulletin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="103" column="9" lean-forward="true" selection-start-line="97" selection-start-column="3" selection-end-line="103" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="94" column="42" selection-start-line="93" selection-start-column="12" selection-end-line="94" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_manager/wenxin_manager_service/src/main/java/com/wenxin/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="212" column="20" selection-start-line="212" selection-start-column="20" selection-end-line="212" selection-end-column="20" />
+          <folding>
+            <element signature="method#producPage#0;class#ProductServiceImpl#0" />
+            <element signature="method#addProduct#0;class#ProductServiceImpl#0" />
+            <element signature="method#updateProduct#0;class#ProductServiceImpl#0" />
+            <element signature="method#getEsClient#0;class#ProductServiceImpl#0" />
+            <element signature="method#updateProductOffSale#0;class#ProductServiceImpl#0" />
+            <element signature="method#getUser#0;class#ProductServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/myproduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="254" column="57" selection-start-line="254" selection-start-column="11" selection-end-line="254" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/webapp/WEB-INF/views/receiveOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="98" column="34" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/service/WOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenxin_front/src/main/java/com/wenxin/service/impl/WOrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-940">
+          <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>wenxin_front:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>wenxin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.0.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

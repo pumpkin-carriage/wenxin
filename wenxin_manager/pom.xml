@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>wenxin_parent</artifactId>
+        <groupId>com.wenxin</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../wenxin_parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>wenxin_manager</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>wenxin_manager_web</module>
+        <module>wenxin_manager_service</module>
+        <module>wenxin_manager_mapper</module>
+        <module>wenxin_manager_pojo</module>
+    </modules>
+
+    <build>
+        <plugins>
+            <!-- 配置Tomcat插件 -->
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <path>/</path>
+                    <port>8090</port>
+                </configuration>
+                <version>2.2</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>

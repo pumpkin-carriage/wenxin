@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="secondhand_common" />
+        <module name="secondhand_manager_mapper" />
+        <module name="secondhand_manager_pojo" />
+        <module name="secondhand_manager_service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

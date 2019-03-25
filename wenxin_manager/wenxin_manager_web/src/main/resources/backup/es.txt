@@ -1,0 +1,102 @@
+#全局映射
+PUT _template/global_template
+{
+  "template":   "*",
+  "settings": { "number_of_shards": 1 },
+  "mappings": {
+    "_default_": {
+      "_all": {
+        "enabled": false
+      },
+      "dynamic_templates": [
+        {
+          "string_as_text": {
+            "match_mapping_type": "string",
+            "match":   "*_text",
+            "mapping": {
+              "type": "text",
+              "analyzer": "ik_max_word",
+              "search_analyzer": "ik_max_word",
+              "fields": {
+                "raw": {
+                  "type":  "keyword",
+                  "ignore_above": 256
+                }
+              }
+            }
+          }
+        },
+        {
+          "string_as_keyword": {
+            "match_mapping_type": "string",
+            "mapping": {
+              "type": "keyword"
+             }
+          }
+        }
+      ]
+    }
+  }}
+
+#创建索引库
+PUT wenxin
+
+#配置product映射
+PUT wenxin/_mapping/product
+{
+  "product":{
+    "properties":{
+      "id":{
+        "type":"integer"
+      },
+      "productAll":{
+        "type":"text",
+        "analyzer":"ik_smart"
+      },
+       "name":{
+        "type":"text",
+        "analyzer":"ik_smart",
+        "search_analyzer":"ik_smart",
+        "copy_to":"productAll"
+      },
+      "brandId":{
+        "type":"integer"
+      },
+      "brandName":{
+        "type":"text",
+        "copy_to":"productAll"
+      },
+       "productTypeId":{
+        "type":"integer"
+      },
+      "productTypeName":{
+        "type":"text",
+        "copy_to":"productAll"
+      },
+      "onSaleTime" : {
+        "type":"text"
+      },
+      "offSaleTime" : {
+        "type":"text"
+      },
+      "image" : {
+        "type" : "text"
+      },
+      "commentCount" : {
+        "type" : "integer"
+      },
+      "price":{
+       "type":"long"
+      },
+      "saleCount" : {
+        "type" : "integer"
+      },
+      "description" : {
+        "type" : "text",
+        "analyzer": "ik_smart",
+        "search_analyzer": "ik_smart",
+        "copy_to": "productAll"
+      }
+    }
+  }
+}

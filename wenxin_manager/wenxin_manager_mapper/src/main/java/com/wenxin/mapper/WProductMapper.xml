@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wenxin.mapper.WProductMapper" >
+  <resultMap id="BaseResultMap" type="com.wenxin.pojo.WProduct" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="sub_name" property="subName" jdbcType="VARCHAR" />
+    <result column="product_type_id" property="productTypeId" jdbcType="INTEGER" />
+    <result column="on_sale_time" property="onSaleTime" jdbcType="TIMESTAMP" />
+    <result column="off_sale_time" property="offSaleTime" jdbcType="TIMESTAMP" />
+    <result column="brand_id" property="brandId" jdbcType="INTEGER" />
+    <result column="state" property="state" jdbcType="INTEGER" />
+    <result column="market_price" property="marketPrice" jdbcType="DECIMAL" />
+    <result column="price" property="price" jdbcType="DECIMAL" />
+    <result column="count" property="count" jdbcType="INTEGER" />
+    <result column="sale_count" property="saleCount" jdbcType="INTEGER" />
+    <result column="comment_count" property="commentCount" jdbcType="INTEGER" />
+    <result column="good_comment_count" property="goodCommentCount" jdbcType="INTEGER" />
+    <result column="common_comment_count" property="commonCommentCount" jdbcType="INTEGER" />
+    <result column="bad_comment_count" property="badCommentCount" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, name, sub_name, product_type_id, on_sale_time, off_sale_time, brand_id, state, 
+    market_price, price, count, sale_count, comment_count, good_comment_count, common_comment_count, 
+    bad_comment_count, create_time, update_time
+  </sql>
+  <resultMap id="bingtuList" type="com.wenxin.utils.BingTuView">
+    <result column="name" property="name"/>
+    <result column="sale_count" property="value"/>
+  </resultMap>
+  <select id="selectInfo" resultMap="bingtuList">
+    SELECT name,sale_count from w_product order by sale_count limit 0,10
+  </select>
+  <select id="selectPage" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from w_product
+    limit #{start},#{pageSize}
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.wenxin.pojo.WProductExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from w_product
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from w_product
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from w_product
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.wenxin.pojo.WProductExample" >
+    delete from w_product
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.wenxin.pojo.WProduct" useGeneratedKeys="true" keyProperty="id">
+    insert into w_product (id, name, sub_name, 
+      product_type_id, on_sale_time, off_sale_time, 
+      brand_id, state, market_price, 
+      price, count, sale_count, 
+      comment_count, good_comment_count, common_comment_count, 
+      bad_comment_count, create_time, update_time
+      )
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{subName,jdbcType=VARCHAR}, 
+      #{productTypeId,jdbcType=INTEGER}, #{onSaleTime,jdbcType=TIMESTAMP}, #{offSaleTime,jdbcType=TIMESTAMP}, 
+      #{brandId,jdbcType=INTEGER}, #{state,jdbcType=INTEGER}, #{marketPrice,jdbcType=DECIMAL}, 
+      #{price,jdbcType=DECIMAL}, #{count,jdbcType=INTEGER}, #{saleCount,jdbcType=INTEGER}, 
+      #{commentCount,jdbcType=INTEGER}, #{goodCommentCount,jdbcType=INTEGER}, #{commonCommentCount,jdbcType=INTEGER}, 
+      #{badCommentCount,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.wenxin.pojo.WProduct" >
+    insert into w_product
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="subName != null" >
+        sub_name,
+      </if>
+      <if test="productTypeId != null" >
+        product_type_id,
+      </if>
+      <if test="onSaleTime != null" >
+        on_sale_time,
+      </if>
+      <if test="offSaleTime != null" >
+        off_sale_time,
+      </if>
+      <if test="brandId != null" >
+        brand_id,
+      </if>
+      <if test="state != null" >
+        state,
+      </if>
+      <if test="marketPrice != null" >
+        market_price,
+      </if>
+      <if test="price != null" >
+        price,
+      </if>
+      <if test="count != null" >
+        count,
+      </if>
+      <if test="saleCount != null" >
+        sale_count,
+      </if>
+      <if test="commentCount != null" >
+        comment_count,
+      </if>
+      <if test="goodCommentCount != null" >
+        good_comment_count,
+      </if>
+      <if test="commonCommentCount != null" >
+        common_comment_count,
+      </if>
+      <if test="badCommentCount != null" >
+        bad_comment_count,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="updateTime != null" >
+        update_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="subName != null" >
+        #{subName,jdbcType=VARCHAR},
+      </if>
+      <if test="productTypeId != null" >
+        #{productTypeId,jdbcType=INTEGER},
+      </if>
+      <if test="onSaleTime != null" >
+        #{onSaleTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="offSaleTime != null" >
+        #{offSaleTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="brandId != null" >
+        #{brandId,jdbcType=INTEGER},
+      </if>
+      <if test="state != null" >
+        #{state,jdbcType=INTEGER},
+      </if>
+      <if test="marketPrice != null" >
+        #{marketPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="price != null" >
+        #{price,jdbcType=DECIMAL},
+      </if>
+      <if test="count != null" >
+        #{count,jdbcType=INTEGER},
+      </if>
+      <if test="saleCount != null" >
+        #{saleCount,jdbcType=INTEGER},
+      </if>
+      <if test="commentCount != null" >
+        #{commentCount,jdbcType=INTEGER},
+      </if>
+      <if test="goodCommentCount != null" >
+        #{goodCommentCount,jdbcType=INTEGER},
+      </if>
+      <if test="commonCommentCount != null" >
+        #{commonCommentCount,jdbcType=INTEGER},
+      </if>
+      <if test="badCommentCount != null" >
+        #{badCommentCount,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.wenxin.pojo.WProductExample" resultType="java.lang.Integer" >
+    select count(*) from w_product
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update w_product
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.name != null" >
+        name = #{record.name,jdbcType=VARCHAR},
+      </if>
+      <if test="record.subName != null" >
+        sub_name = #{record.subName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.productTypeId != null" >
+        product_type_id = #{record.productTypeId,jdbcType=INTEGER},
+      </if>
+      <if test="record.onSaleTime != null" >
+        on_sale_time = #{record.onSaleTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.offSaleTime != null" >
+        off_sale_time = #{record.offSaleTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.brandId != null" >
+        brand_id = #{record.brandId,jdbcType=INTEGER},
+      </if>
+      <if test="record.state != null" >
+        state = #{record.state,jdbcType=INTEGER},
+      </if>
+      <if test="record.marketPrice != null" >
+        market_price = #{record.marketPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="record.price != null" >
+        price = #{record.price,jdbcType=DECIMAL},
+      </if>
+      <if test="record.count != null" >
+        count = #{record.count,jdbcType=INTEGER},
+      </if>
+      <if test="record.saleCount != null" >
+        sale_count = #{record.saleCount,jdbcType=INTEGER},
+      </if>
+      <if test="record.commentCount != null" >
+        comment_count = #{record.commentCount,jdbcType=INTEGER},
+      </if>
+      <if test="record.goodCommentCount != null" >
+        good_comment_count = #{record.goodCommentCount,jdbcType=INTEGER},
+      </if>
+      <if test="record.commonCommentCount != null" >
+        common_comment_count = #{record.commonCommentCount,jdbcType=INTEGER},
+      </if>
+      <if test="record.badCommentCount != null" >
+        bad_comment_count = #{record.badCommentCount,jdbcType=INTEGER},
+      </if>
+      <if test="record.createTime != null" >
+        create_time = #{record.createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.updateTime != null" >
+        update_time = #{record.updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update w_product
+    set id = #{record.id,jdbcType=INTEGER},
+      name = #{record.name,jdbcType=VARCHAR},
+      sub_name = #{record.subName,jdbcType=VARCHAR},
+      product_type_id = #{record.productTypeId,jdbcType=INTEGER},
+      on_sale_time = #{record.onSaleTime,jdbcType=TIMESTAMP},
+      off_sale_time = #{record.offSaleTime,jdbcType=TIMESTAMP},
+      brand_id = #{record.brandId,jdbcType=INTEGER},
+      state = #{record.state,jdbcType=INTEGER},
+      market_price = #{record.marketPrice,jdbcType=DECIMAL},
+      price = #{record.price,jdbcType=DECIMAL},
+      count = #{record.count,jdbcType=INTEGER},
+      sale_count = #{record.saleCount,jdbcType=INTEGER},
+      comment_count = #{record.commentCount,jdbcType=INTEGER},
+      good_comment_count = #{record.goodCommentCount,jdbcType=INTEGER},
+      common_comment_count = #{record.commonCommentCount,jdbcType=INTEGER},
+      bad_comment_count = #{record.badCommentCount,jdbcType=INTEGER},
+      create_time = #{record.createTime,jdbcType=TIMESTAMP},
+      update_time = #{record.updateTime,jdbcType=TIMESTAMP}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+
+  <update id="updateStateBatch" parameterType="java.util.List">
+    update w_product set state=
+    <foreach collection="list" index="index" item="item"
+             separator=" " open="case id" close="end">
+      when #{item.id} then #{item.state}
+    </foreach>
+    ,on_sale_time=
+    <foreach collection="list" index="index" item="item"
+             separator=" " open="case id" close="end">
+      when #{item.id} then #{item.onSaleTime}
+    </foreach>
+    ,off_sale_time=
+    <foreach collection="list" index="index" item="item"
+             separator=" " open="case id" close="end">
+      when #{item.id} then #{item.offSaleTime}
+    </foreach>
+    where id in
+    <foreach collection="list" index="index" item="item"
+             separator="," open="(" close=")">
+       #{item.id}
+    </foreach>
+  </update>
+
+  <update id="updateByPrimaryKeySelective" parameterType="com.wenxin.pojo.WProduct" >
+    update w_product
+    <set >
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="subName != null" >
+        sub_name = #{subName,jdbcType=VARCHAR},
+      </if>
+      <if test="productTypeId != null" >
+        product_type_id = #{productTypeId,jdbcType=INTEGER},
+      </if>
+      <if test="onSaleTime != null" >
+        on_sale_time = #{onSaleTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="offSaleTime != null" >
+        off_sale_time = #{offSaleTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="brandId != null" >
+        brand_id = #{brandId,jdbcType=INTEGER},
+      </if>
+      <if test="state != null" >
+        state = #{state,jdbcType=INTEGER},
+      </if>
+      <if test="marketPrice != null" >
+        market_price = #{marketPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="price != null" >
+        price = #{price,jdbcType=DECIMAL},
+      </if>
+      <if test="count != null" >
+        count = #{count,jdbcType=INTEGER},
+      </if>
+      <if test="saleCount != null" >
+        sale_count = #{saleCount,jdbcType=INTEGER},
+      </if>
+      <if test="commentCount != null" >
+        comment_count = #{commentCount,jdbcType=INTEGER},
+      </if>
+      <if test="goodCommentCount != null" >
+        good_comment_count = #{goodCommentCount,jdbcType=INTEGER},
+      </if>
+      <if test="commonCommentCount != null" >
+        common_comment_count = #{commonCommentCount,jdbcType=INTEGER},
+      </if>
+      <if test="badCommentCount != null" >
+        bad_comment_count = #{badCommentCount,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.wenxin.pojo.WProduct" >
+    update w_product
+    set name = #{name,jdbcType=VARCHAR},
+      sub_name = #{subName,jdbcType=VARCHAR},
+      product_type_id = #{productTypeId,jdbcType=INTEGER},
+      on_sale_time = #{onSaleTime,jdbcType=TIMESTAMP},
+      off_sale_time = #{offSaleTime,jdbcType=TIMESTAMP},
+      brand_id = #{brandId,jdbcType=INTEGER},
+      state = #{state,jdbcType=INTEGER},
+      market_price = #{marketPrice,jdbcType=DECIMAL},
+      price = #{price,jdbcType=DECIMAL},
+      count = #{count,jdbcType=INTEGER},
+      sale_count = #{saleCount,jdbcType=INTEGER},
+      comment_count = #{commentCount,jdbcType=INTEGER},
+      good_comment_count = #{goodCommentCount,jdbcType=INTEGER},
+      common_comment_count = #{commonCommentCount,jdbcType=INTEGER},
+      bad_comment_count = #{badCommentCount,jdbcType=INTEGER},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
